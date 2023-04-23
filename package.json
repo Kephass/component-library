@@ -1,9 +1,13 @@
 {
-  "name": "component-library",
+  "name": "@kephass/component-library",
   "version": "0.0.1",
   "description": "A react component librabry",
   "scripts": {
     "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kephass/component-library"
   },
   "author": "Felix",
   "license": "ISC",
@@ -25,5 +29,8 @@
   "types": "dist/index.d.ts",
   "dependencies": {
     "tslib": "^2.5.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Kephass"
   }
 }
